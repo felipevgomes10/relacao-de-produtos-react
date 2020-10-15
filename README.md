@@ -18,6 +18,10 @@ Com a utilização do _**":id"**_ (a palavra id pode ser substituída por outra,
 
 <img src="./src/img/produto.PNG" />
 
+# React hooks
+
+O projeto faz uso de hooks como _**useState, useEffect e useContext**_ de forma inteligente para a máxima otimização do mesmo.
+
 # Iniciando o projeto
 
 Como  esse porjeto foi criado com o create-react-app, ele faz uso de inúmeras dependências e para baixá-las basta rodar o comando abaixo com o terminal aberto na pasta do projeto:
