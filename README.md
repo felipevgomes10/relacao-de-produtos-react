@@ -28,9 +28,3 @@ Como  esse porjeto foi criado com o create-react-app, ele faz uso de inúmeras d
 ```
 npm install
 ```
-
-# Página do projeto
-
-O projeto está ativo no github pages, então se quiser testá-lo basta clicar no link abaixo:
-
-https://felipevgomes10.github.io/relacao-de-produtos-react
