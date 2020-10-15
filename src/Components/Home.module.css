@@ -1,0 +1,23 @@
+.sectionProducts {
+  grid-row: 2 / 3;
+  grid-column: full-start / full-end;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 4rem;
+}
+
+.produtoCont{
+  overflow: hidden;
+}
+
+.produtoImg {
+  display: block;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.produtoCaption {
+  margin-top: 1rem;
+  font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.loadingCont {
+  grid-row: 2 / 3;
+  grid-column: full-start / full-end;
+}
+
+.loadingCont span {
+  display: inline-block;
+  height: 5rem;
+  width: 5rem;
+  border: 10px solid #8b8989;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

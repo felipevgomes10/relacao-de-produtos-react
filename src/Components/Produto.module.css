@@ -1,0 +1,46 @@
+.produto {
+  grid-row: 2 / 3;
+  grid-column: full-start / full-end;
+
+  display: flex;
+}
+
+.containerImg {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 2rem;
+}
+
+.img {
+  display: block;
+  width: 30rem;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+
+.info {
+  padding: 2rem;
+}
+
+.info h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.info span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #43ea4e;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 3px;
+  margin-bottom: 1.5rem;
+}
+
+.info p {
+  width: 25rem;
+}

@@ -1,0 +1,23 @@
+.contato {
+  grid-row: 2 / 3;
+  grid-column: full-start / full-end;
+
+  display: flex;
+}
+
+.contatoImg {
+  display: block;
+  width: 30rem;
+  margin-right: 2.5rem;
+  border-radius: 5px;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.info:not(:last-child) {
+  margin-bottom: 1rem;
+}
